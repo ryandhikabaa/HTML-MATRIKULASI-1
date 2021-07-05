@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    border: 1px solid black;
+}
+header, footer{
+    padding: 1em;
+    color: blanchedalmond;
+    background-color: #2d84b6;
+    text-align: center;
+}
+nav{
+    max-width: 160px;
+    padding: 1em;
+    margin: 0;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a:hover{
+    background-color: darkgrey;
+    color: white;
+}
+article{
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    background-image: url('images/istockphoto-871036876-612x612.jpg');
+    color: rgb(0, 0, 0);
+}
